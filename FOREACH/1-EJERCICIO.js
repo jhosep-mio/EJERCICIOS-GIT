@@ -10,8 +10,5 @@ const playlist = ["Concrete and Gold",
 
 
 // USAR LA FUNCION FOREACH Y MOSTRAR LOS DATOS UNO POR UNO
-playlist.forEach(Mostrar);
+playlist.forEach( dato => console.log(dato));
 
-function Mostrar(dato){
-    console.log(dato);
-}

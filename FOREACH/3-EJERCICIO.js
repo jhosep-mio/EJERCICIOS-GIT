@@ -4,8 +4,6 @@ const playlist = ["Concrete and Gold", "The Line", "Sunday Rain", "Happy Ever Af
 
   /// ¡escribir en este espacio la solución del ejercicio!
   
-  playlist.forEach(mostrar);
+  playlist.forEach((item,posicion)=>  console.log(`${posicion} ${item}`));
     
-  function mostrar(item,posicion){
-    console.log(posicion+' - '+item);
-  }
+  

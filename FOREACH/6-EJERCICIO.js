@@ -4,15 +4,13 @@ const numerosImpares = [];
 
 // SOLUCION
 
-masNumeros.forEach(ejercicio6);
-
-function ejercicio6(item, posicion){
+masNumeros.forEach((item, posicion)=> {
     if(item%2==0){
         numerosPares[posicion]=item;
     }else {
         numerosImpares[posicion]=item;
     }
-}
+});
 
 console.log("pares: ", numerosPares);
 console.log("impares: ", numerosImpares);

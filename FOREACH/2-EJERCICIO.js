@@ -12,11 +12,8 @@ const librosDeJS = [
   
   let totalLibros=0;
 
-  librosDeJS.forEach(cantidad);
+  librosDeJS.forEach(()=> totalLibros++);
     
-  function cantidad(){
-    totalLibros++
-  }
   /// ¡escribir en este espacio la solución del ejercicio!
   console.log('Mi lista de libros de JavaScript tiene ' + totalLibros + ' libros');
  
