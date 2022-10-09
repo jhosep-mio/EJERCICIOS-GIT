@@ -3,7 +3,9 @@ let sum = 0;
 
 // codea debajo de este comentario la solucion al ejercicio
 
-numbers.forEach(item => sum=sum+item);
+const resultado4= numbers.forEach(item => {
+    sum=sum+item
+});
 
 console.log(sum);
 // deberia mostrar 155

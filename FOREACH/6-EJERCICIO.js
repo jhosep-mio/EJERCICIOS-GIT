@@ -4,7 +4,7 @@ const numerosImpares = [];
 
 // SOLUCION
 
-masNumeros.forEach((item, posicion)=> {
+const resultado6= masNumeros.forEach((item, posicion) => {
     if(item%2==0){
         numerosPares[posicion]=item;
     }else {

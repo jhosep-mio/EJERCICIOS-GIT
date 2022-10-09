@@ -12,8 +12,10 @@ const librosDeJS = [
   
   let totalLibros=0;
 
-  librosDeJS.forEach(()=> totalLibros++);
+  const resultado2=librosDeJS.forEach(()=> {
+    totalLibros++
+  });
     
   /// ¡escribir en este espacio la solución del ejercicio!
-  console.log('Mi lista de libros de JavaScript tiene ' + totalLibros + ' libros');
+  console.log(`Mi lista de libros de JavaScript tiene ${totalLibros} libros`);
  

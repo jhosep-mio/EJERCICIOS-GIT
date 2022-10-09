@@ -2,7 +2,9 @@ const valores = [ 6, 0, 5, 2, 3, 8, 7, 4, 1, 9 ];
 const dobles = [];
 
 // codea aca tu solución al ejercicio
-valores.forEach((entrada, posicion)=>dobles[posicion]=entrada*2);
+const resultado7= valores.forEach((entrada, posicion) => {
+    dobles[posicion]=entrada*2
+});
 
 console.log("valores: ", valores);
 console.log("dobles: ", dobles);
